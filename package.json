@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "developtest": "ng serve --host 0.0.0.0 -p 4300 --live-reload false",
+
+    "developtest": "ts-node git.version.ts && ng serve --host 0.0.0.0 -p 4300 --live-reload false",
     "develop2test": "echo develop2test",
     "release2test": "echo release2test",
     "feature2test": "echo feature2test"
